@@ -1,0 +1,65 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+
+main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    
+}
+
+#primeiro-quadrado > div > div{
+    background-color: rgb(192, 208, 223);
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.171);
+    padding-top: 20px;
+    margin-top: 1px;
+    
+    
+}
+
+#primeiro-quadrado > div > div > i{
+    margin-left: 50%;
+    
+}
+
+#primeiro-quadrado > div > div > p{
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+#primeiro-quadrado {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* essa linha é necessária para criar duas colunas com a mesma largura */
+    grid-template-rows: repeat(2, 1fr); /* essa linha é necessária para criar duas linhas com a mesma altura */
+    grid-gap: 10px; /* essa linha é para adicionar espaçamento entre as divs */
+}
+
+#favoritos{
+    height: 101px;
+    
+}
+ 
+.cima{
+    margin: 10px;
+}
