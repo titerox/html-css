@@ -12,10 +12,7 @@ grandes telas: >1200px
 */
 
 @media print {
-    body{
-        
 
-    }
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display: block;}
